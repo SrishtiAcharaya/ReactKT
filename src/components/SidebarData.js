@@ -27,30 +27,30 @@ export const SidebarData = [
       },
       {
         title: 'useState',
-        path: '/hooks/state',
+        path: '/hooks/usestate',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
-        title: 'Context',
-        path: '/types/context',
+        title: 'useContext',
+        path: '/hooks/usecontext',
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Reducer',
-        path: '/types/reducer',
+        title: 'useReducer',
+        path: '/hooks/usereducer',
         icon: <IoIcons.IoIosPaper />
       }
     ]
   },
-  {
-    title: 'Rules',
-    path: '/rules',
-    icon: <IoIcons.IoIosPaper />,
-  },
-  {
-    title: 'CustomHooks',
-    path: '/customhooks',
-    icon: <IoIcons.IoMdHelpCircle />
-  }
+  // {
+  //   title: 'Rules',
+  //   path: '/rules',
+  //   icon: <IoIcons.IoIosPaper />,
+  // },
+  // {
+  //   title: 'CustomHooks',
+  //   path: '/customhooks',
+  //   icon: <IoIcons.IoMdHelpCircle />
+  // }
 ];
