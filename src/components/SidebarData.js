@@ -10,6 +10,26 @@ export const SidebarData = [
     icon: <AiIcons.AiFillSetting />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
+    subNav: [
+      {
+        title: 'components',
+        path: '/router/components',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: 'RouteMatchers',
+        path: '/router/routematchers',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: 'navigation',
+        path: '/router/navigation',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+    ]
   },
   {
     title: 'Hooks',
@@ -39,6 +59,11 @@ export const SidebarData = [
       {
         title: 'useReducer',
         path: '/hooks/usereducer',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'CustomHooks',
+        path: '/hooks/CustomHooks',
         icon: <IoIcons.IoIosPaper />
       }
     ]

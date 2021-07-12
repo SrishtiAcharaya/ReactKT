@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main-content{
@@ -12,8 +14,11 @@
   text-align: left;
   margin-top: 10px;
   margin-left: 20%;
+  margin-right: 20px;
   justify-content: left;
 }
-/*.sidebar-active{
-  margin-left: 20%;
-}*/
+.sub-content{
+  margin-top: 10px;
+  margin-bottom:25px ;
+  padding: 5px;
+}
