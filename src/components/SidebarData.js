@@ -68,11 +68,13 @@ export const SidebarData = [
       }
     ]
   },
-  // {
-  //   title: 'Rules',
-  //   path: '/rules',
-  //   icon: <IoIcons.IoIosPaper />,
-  // },
+  {
+    title: 'MaterialUI',
+    path: '/materialui',
+    icon: <IoIcons.IoIosPaper />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+  },
   // {
   //   title: 'CustomHooks',
   //   path: '/customhooks',

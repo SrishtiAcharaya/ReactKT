@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import { Hooks, Effect, State, Context, Reducer, CustomHooks } from './pages/Hooks';
 import { Components, Navigation, RouteMatchers, Router } from './pages/Router';
+import { MaterialUI } from './pages/MaterialUI';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/hooks/usecontext' exact component={Context} />
           <Route path='/hooks/usereducer' exact component={Reducer} />
           <Route path='/hooks/CustomHooks' exact component={CustomHooks} />
+          <Route path='/materialui' exact component = {MaterialUI} />
         </Switch>
       </BrowserRouter>
     </div>
